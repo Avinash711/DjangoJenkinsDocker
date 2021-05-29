@@ -11,7 +11,7 @@ def doc_show(request):
                         ''')
 
 def asst_show(request):
-    return HttpResponse('''<h1> Doc 1: Gaurav Kumar</h1>,
+    return HttpResponse('''<h1> Doc 1: Mr. Gaurav Kumar</h1>,
                         <h2>Doc 2: Akg Company</h2>,
                         <h3>Doc 3: Srivastava</h3>,
                         <h4>Doc 4: Subham </h4>,

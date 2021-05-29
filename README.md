@@ -4,7 +4,7 @@ Boilerplate code to deploy a Django project using Docker Compose in a production
 
 In production, Django uses a WSGI server such as Gunicorn and a web server such as Nginx.
 
-# Usage, v1
+# Usage, v1, v2
 
 Run services in the background:
 `docker-compose up -d`

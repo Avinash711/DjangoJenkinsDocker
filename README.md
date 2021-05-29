@@ -22,3 +22,6 @@ View networks:
 
 Bring services down:
 `docker-compose down`
+
+**Note** env file is copied from jenkins/workspace to project folder,
+discarded from actual folder as it conatins secret key

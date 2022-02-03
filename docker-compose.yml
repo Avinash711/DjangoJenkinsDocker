@@ -1,11 +1,10 @@
 version: '3.7'
-#v4
+#v5
 services:
   django_gunicorn:
     volumes:
       - static:/static
     env_file:
-      - shell: echo "Environment ----> is ${env}"
       - .env
     build:
       context: .

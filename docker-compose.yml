@@ -1,9 +1,5 @@
 version: '3.7'
-#v3
-envs:
-  global:
-    variables:
-      env: STG
+#v4
 services:
   django_gunicorn:
     volumes:

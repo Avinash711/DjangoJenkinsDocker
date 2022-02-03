@@ -12,6 +12,7 @@ services:
       - "8000:8000"
   nginx:
     build: ./nginx
+    shell: echo "secret variable is ${TEST_VAR}"
     volumes:
       - static:/static
     ports:
@@ -21,4 +22,5 @@ services:
 
 volumes:
   static:
+
 
